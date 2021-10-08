@@ -1,0 +1,169 @@
+
+
+#music{
+    text-align: center;
+    height: 300px;;
+}
+#music h1{
+    padding: 50px 0px;;
+    font-family:  'Yeon Sung', cursive;;
+    margin-bottom: 80px;
+    font-size: 35px;
+}
+.set button{
+    margin-right: 20px;;
+    height: 100px;;
+    width: 100px;;
+    position: relative;
+    bottom: 60px;
+}
+.drum{
+    margin-top: 70px;;
+}
+.w{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBYXrPDmMvte27TAfgQ_ZNuZAxOFMlCyGuw&usqp=CAU") ;
+    background-size: 100px 100px;
+background-repeat: no-repeat;
+ font-weight: bold;
+ 
+}
+
+.a{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBYXrPDmMvte27TAfgQ_ZNuZAxOFMlCyGuw&usqp=CAU") ;
+    background-size: 100px 100px;
+background-repeat: no-repeat;
+ font-weight: bold;
+ 
+}
+
+.s{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBYXrPDmMvte27TAfgQ_ZNuZAxOFMlCyGuw&usqp=CAU") ;
+    background-size: 100px 100px;
+background-repeat: no-repeat;
+ /* opacity: 0.8; */
+
+ font-weight: bold;
+ 
+}
+
+.d{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBYXrPDmMvte27TAfgQ_ZNuZAxOFMlCyGuw&usqp=CAU") ;
+    background-size: 100px 100px;
+background-repeat: no-repeat;
+ /* opacity: 0.8; */
+background-color: white;
+ font-weight: bold;
+ 
+}
+
+
+.j{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUnm5Am5QRgvrXHAMNcwMbg1aDcI8TCYhnQ&usqp=CAU");
+    background-size: 100px 100px;
+background-repeat: no-repeat;
+ font-weight: bold;
+
+}
+
+.k{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5dbb28b79eecf25f75d322e1/1580431895399-89VEY2TSXDXKQRLNURXW/brown+Yamaha+upright+piano+with+keys");
+    background-size: 100px 100px;
+background-repeat: no-repeat;
+ font-weight: bold;
+
+}
+
+.l{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Western_concert_flute_%28Yamaha%29.jpg");
+    background-size: 100px 100px;
+background-repeat: no-repeat;
+ font-weight: bold;
+
+}
+
+#music{
+/* background: url("../dancestat/music_background.png"); */
+background-color: rgba(243, 193, 99, 0.842);
+}
+.drum{
+   
+        outline: none;
+        border: 10px solid #404B69;
+        font-size: 3rem;
+        font-family: 'Yeon Sung', cursive;;
+        font-weight: 900;
+        color: #4d7bc0;
+        text-shadow: 3px 0 #DBEDF3;
+        border-radius: 15px;
+        display: inline-block;
+        width: 100px;
+        height: 80px;
+        text-align: center;
+        margin: 10px;
+        background-color: white;
+        
+      
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+#aboutus{
+    height:380px;;
+}
+#aboutus img{
+   height: 250px;;
+   width:300px;
+   margin-top: 50px;
+   margin-left: 80px;
+   border-radius: 20px;;
+}
+.desc{
+    padding-right: 40px;;
+    width: 60%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;;
+   text-align: left;
+   float: right;
+}
+#column1{
+    margin-right: 180px;
+    margin-left: 100px;
+}
+#column1 li{
+    margin-bottom: 10px;;
+}
+#column2{
+    position: relative;
+    bottom: 23px;;
+    margin-right: 110px;
+}
+#column2 li{
+    
+    margin-bottom: 8px;;
+}
+#column2 h3{
+    margin-bottom: 10px;;
+}
+#column3 li{
+    margin-bottom: 10px;;
+}
+.data{
+    display: inline-block;
+   list-style: none;
+ 
+   background-color: black;
+   color: white;
+   padding-top: 30px;;
+}
+
+#column3{
+    position: relative;
+    bottom: 60px;;
+    font-size: 30px;
+}
+#totalcolumn{
+    background-color: black;
+}

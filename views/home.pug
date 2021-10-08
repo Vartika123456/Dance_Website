@@ -1,0 +1,51 @@
+extends base.pug
+
+
+    
+block style.css 
+    style
+      include ../dancestat/style.css
+block content 
+    section#introSection 
+        p.head Welcome to Vartika Gupta's Dance Academy 
+        p.tail Eat Sleep Dance Repeat
+
+    section#mission 
+        h3 Our Mission
+        .card       
+            h5 Dance Perfection.
+            div.card-box
+                .card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOckA8SR7-VS_SBUEYDINsBNHynG_ObPWmtQ&usqp=CAU")
+                .card-content 
+                    p
+                      | This is the best dance academy of   the universe.
+        .card       
+            h5 Dance the way you like.
+            div.card-box
+                .card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoGxCRvdEc07wYiG_vxXm3WMraYjg9f7Frw&usqp=CAU")
+                .card-content 
+                        p
+                         | This is the best dance        academy of the universe.       
+
+        .card                                               
+            h5 Expert Teaching 
+            div.card-box
+                .card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fmJvKB2ycXBOUTPxuaIaNSiCo5WB6wH1sQ&usqp=CAU")
+                .card-content 
+                     p
+                        | This is the best dance academy   of the universe.
+
+
+    section#sponsorsSection 
+        h3 Our Sponsors
+            #sponsors 
+                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/862px-Apple_logo_grey.svg.png"     class="sponsorimg")
+                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Skype_logo.svg/2560px-Skype_logo.svg.png"      class="sponsorimg")
+                img(src="https://cdn.vox-cdn.com/thumbor/0pAzN6LdawcEO1pxZXy-78_VgVU=/7x0:633x417/1400x1050/filters:focal(7x0:633x417):format(jpeg)/cdn.vox-cdn.com/assets/1311169/mslogo.jpg"       class="sponsorimg")
+
+                img(src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"    class="sponsorimg")
+    
+      

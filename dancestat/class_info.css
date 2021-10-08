@@ -1,0 +1,173 @@
+
+
+
+h1{
+    text-align: center;
+    font-family:  'Roboto Slab', serif;
+    margin-top: 40px;;
+}
+.contemporary{
+    height: 300px;;
+    width: 800px;;
+    margin-top: 50px;
+    font-family:  'Yeon Sung', cursive;;
+}
+.ballet{
+    height: 380px;;
+    width: 800px;;
+    margin-top: 50px;
+    font-family:  'Yeon Sung', cursive;;
+}
+.hip-hop{
+   
+        height: 300px;;
+        width: 800px;;
+        margin-top: 50px;
+        font-family:  'Yeon Sung', cursive;;
+    
+}
+.salsa
+{
+   
+        height: 300px;;
+        width: 800px;;
+        margin-top: 50px;
+        font-family:  'Yeon Sung', cursive;;
+ 
+}
+.contemporary::before{
+    background: url("https://www.city-academy.com/news/wp-content/uploads/2016/09/5-things-you-didnt-know-contemporary-dance-1-930x453.jpg") no-repeat center center;
+    content:"";
+    width:100%;
+    height:100%;
+    z-index: -1;
+    top:40px;
+    position: absolute;
+ background-size: 1500px 350px;
+    opacity: 0.2;
+}
+
+.ballet::before{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUsvSyhbWAc0fAQ1hDT8pQGVRZBgcA4q_G5A&usqp=CAU") no-repeat center center;
+    content:"";
+    width:100%;
+    height:100%;
+    z-index: -1;
+    top:1160px;
+    position: absolute;
+ background-size: 1500px 400px;
+    opacity: 0.2;
+}
+
+.salsa::before{
+    background: url("https://i0.wp.com/urbanasian.com/wp-content/uploads/2020/04/salsa.jpg?fit=600%2C400&ssl=1") no-repeat center center;
+    content:"";
+    width:100%;
+    height:100%;
+    z-index: -1;;
+    position: absolute;
+    top: 390px;
+ background-size: 1500px 350px;
+    opacity: 0.2;
+}
+
+.hip-hop::before{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEqQR0H5t8OSDbC5AUtRevDBHBzim23QvtZw&usqp=CAU") no-repeat center center;
+    content:"";
+    width:100%;
+    height:100%;
+    z-index: -1;
+    top:760px;
+    position: absolute;
+ background-size: 1500px 400px;
+    opacity: 0.2;
+}
+
+.ballet h2{
+    margin-bottom: 60px;
+    margin-left: 40px;;
+   position: relative;
+   top:30px;
+   padding-left: 40px;
+}
+.contemporary h2{
+    margin-bottom: 60px;
+    margin-left: 40px;;
+   position: relative;
+   top:30px;
+   padding-left: 40px;
+}
+
+.hip-hop h2{
+    margin-bottom: 60px;
+    margin-left: 40px;;
+   position: relative;
+   top:30px;
+   padding-left: 40px;
+}
+
+.salsa h2{
+    margin-bottom: 60px;
+    margin-left: 40px;;
+   position: relative;
+   top:30px;
+   padding-left: 40px;
+}
+
+#data1{
+    margin-left: 30px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+
+.contemporary img{
+    height: 180px;
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 170px;
+    left: 270px;
+    border-radius: 20px;
+}
+
+.ballet img{
+    height: 180px;
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 170px;
+    left: 270px;
+    border-radius: 20px;
+}
+
+.salsa img{
+    height: 180px;
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 170px;
+    left: 270px;
+    border-radius: 20px;
+}
+
+.hip-hop img{
+    height: 180px;
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 170px;
+    left: 270px;
+    border-radius: 20px;
+}
+
+#data1 li{
+margin-bottom: 5px;
+}
+#footer{
+    position: relative;
+    top:50px;
+    padding-left: 150px;;
+    height: 100px;
+   
+}

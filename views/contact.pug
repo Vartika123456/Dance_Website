@@ -1,0 +1,20 @@
+extends base.pug
+
+
+      
+block style.css 
+    style
+      include ../dancestat/style.css
+      include ../dancestat/contact_style.css
+block content 
+    h2 Contact Us
+         form(action="/contact" , method="post")
+            input(type="text",name="name" class="input",    placeholder="Enter your name") 
+            input(type="tel",name="phone_number" class="input" ,placeholder="Enter your phone number") 
+            input(type="email",name="email" class="input",    placeholder="Enter your email id")
+            input(type="text",name="address" class="input",    placeholder="Enter your address")
+            input(type="text",name="concern" class="input",  placeholder="Enter your concern")
+            button(class="btn") 
+             | Submit
+            
+            

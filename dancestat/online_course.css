@@ -1,0 +1,47 @@
+h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;;
+    font-family: 'Yeon Sung', cursive;
+}
+.contemp{
+    margin-right: 45px;;
+}
+.contempvideo{
+ padding-left: 90px;
+}
+
+.comment{
+    margin-top: 30px;;
+    text-align: center;
+}
+.comment h3{
+    font-family: 'Yeon Sung', cursive;
+    margin-bottom: 30px;;
+}
+#area{
+border: solid  dark 30px;
+border-radius: 10px;
+padding-left: 10px;;
+margin-bottom: 15px;
+}
+
+.btn {
+    background: #df4949;
+    background: #df4949;
+    margin-bottom: 10px;
+    background-image: -webkit-linear-gradient(top, #df4949, );
+    background-image: -moz-linear-gradient(top, #df4949, #df4949);
+    background-image: -ms-linear-gradient(top, #df4949, #df4949);
+    background-image: -o-linear-gradient(top, #df4949, #df4949);
+    background-image: linear-gradient(to bottom, #df4949, #df4949);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 12px 8px 12px;
+    text-decoration: none;
+    cursor:pointer;
+  }

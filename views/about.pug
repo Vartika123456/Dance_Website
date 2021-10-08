@@ -1,0 +1,61 @@
+extends base.pug
+
+
+block style.css 
+    style
+      include ../dancestat/style.css
+      include ../dancestat/aboutstyle.css
+block content
+    Section#music
+        h1#heading Dance On Your Own Beats 
+        Section.set 
+            button(class="w drum" id="w")
+                |w 
+            button(class="a drum" id="a" )
+                |a 
+            button(class="s drum" id="s" )
+                |s
+            button(class="d drum" id="d")
+                |d
+            button(class="j drum" id="j")
+                |j 
+            button(class="k drum" id="k")
+                |k
+            button(class="l drum" id="l")
+                |l
+    Section#aboutus 
+        img(src ="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2018/04/02183053/danceworx.jpg")
+        
+        <p class="desc">
+         The Vartika Gupta Dance Academy (voted India’s Number 1 dance company) and the  Vartika Gupta Professional Training          Institute    widely-acknowledged as   the country’s most  pop and   reputed dance    organisations.<br>
+        Together with the Vartika Guota Dance             ScholarshipFoundation Trust, they make up the TL   brand, whichfosters creative    excellence in       the      talented   enthusiastic dancer (or aspiring dancer),  raising the standards of dance in India and  beyond.<br>
+         We work together, towards professional         excellencein exploring dance in various forms such as educational, research, artistic and commercial ventures. We constantly strive for efficiency and customer satisfaction.<br>
+         Our talented team of professional dancers and     instructors have all been handpicked and   personally trained by our founders Vartika Gupta and Mahrukh Dumasia; and receive ongoing coaching and regular assessments to ensure that  that their skills are up-to-date<br></p>
+    Section#totalcolumn
+     Section#column1.data
+       ul 
+       li Home
+       li Blog 
+       li Career 
+       li FAQS
+       li Privacy Policy 
+       li Terms and Conditions
+ 
+     Section#column2.data
+         h3 Contact 
+         ul 
+         li.email info@VartikaGuptaDanceAcademy.in
+         h3 Phone 
+         ul
+         li 9876987687
+         li 8967677587
+      
+     Section#column3.data 
+        h1 Vartika Gupta <br> Dance Academy
+
+    
+    block script
+        script
+            include ../dancestat/aboutindex.js
+     
+        

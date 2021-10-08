@@ -1,0 +1,52 @@
+extends base.pug
+block style.css 
+    style
+      include ../dancestat/style.css
+      include ../dancestat/online_course.css
+block content 
+    Section.contemporary
+        h2 Contemporary
+        Section.contempvideo
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/2VTWn9TA8Qw" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/KHiMBzMYSlg" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/XlNSFgSMGZA" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    Section.contemporary
+        h2 Salsa
+        Section.contempvideo
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/wV8cDpJa2f4" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/DSdnHiD5bFE" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/jpIJMKjxkQ0" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    Section.contemporary
+        h2 Hip-Hop
+        Section.contempvideo
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/Kd-Va1m4s1E" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/n2OxAFYHV0U" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/1WIA6Yvj8Yg" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    Section.contemporary
+        h2 Ballet Dance
+        Section.contempvideo
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/o-QA_AQNhm8" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/Uy67yin1ylI" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/99dCcB5Unmo" title="YouTube video player" frameborder="0" class="contemp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    Section.comment 
+            h3 Comment your views
+            form(action="/online_course" , method="post") 
+                <textarea name="comment" id="area" cols="40" rows="10" placeholder="Videos are ....."></textarea><br>
+                button(class="btn") 
+                  | Comment
+    block script
+        script
+            include ../dancestat/online_course.js
+    
