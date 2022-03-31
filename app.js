@@ -120,3 +120,7 @@ var Contact = mongoose.model('Contact', contactSchema);
   app.listen(port,()=>{
     console.log(`app run successfully on ${port}`);
 })
+
+var hello=(ele)=>{
+  console.log("good morning");
+}
